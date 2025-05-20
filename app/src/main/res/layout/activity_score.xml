@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Score">
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:translationX="85dp"
+        android:translationY="85dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:translationX="85dp"
+        android:translationY="85dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnReview"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Review"
+        android:translationX="130dp"
+        android:translationY="100dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Exit"
+        android:translationX="130dp"
+        android:translationY="100dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+</LinearLayout>
